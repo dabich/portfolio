@@ -17,8 +17,9 @@ before_install:
     - "npm config set spin false"
 
 install:
-    - sh scripts/packages-install.sh
-    - sh scripts/build.sh
+    - bash ./scripts/packages-install.sh
+    - bash ./scripts/build.sh
 
 script:
-    - sh scripts/test.sh
+    - bash ./scripts/test.sh
+    - bash ./.travis-deploy.sh

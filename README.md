@@ -1,13 +1,14 @@
 <p align="center">
     <a href="http://dabich.pp.ua" target="_blank">
-        <h1>Portfolio</h1>
+        <h1 align="center">Portfolio</h1>
     </a>
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/dabich/portfolio"><img src="https://travis-ci.org/dabich/portfolio.svg?branch=master" alt="Build Status"></a>
+    <a href="https://travis-ci.org/dabich/portfolio">
+        <img src="https://travis-ci.org/dabich/portfolio.svg?branch=master" alt="Build Status">
+    </a>
 </p>
-
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
